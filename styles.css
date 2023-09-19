@@ -3,12 +3,22 @@
 	margin: 0px;
 	padding: 0px;
 } */
+
 :root{
 	background-color: rgb(135, 206, 235);
 }
+
 p:first-child{
 	color: white;
 	background-color: black;
+}
+
+p:nth-child(2){
+	text-color: black;
+}
+
+p:last-child{
+	color: red;
 }
 
 li{
@@ -28,9 +38,6 @@ li:nth-child(3){
 	background-color: pink;
 }
 
-p:last-child{
-	color: red;
-}
 
 
 
